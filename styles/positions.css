@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+}
+
+#navigation img {
+    /*padding-left: 180px;*/
+    width: 100%;
+}
+
+#navigation ul {
+    width: 100%;
+    list-style: none;
+}
+
+#navigation ul li {
+    display: inline-block;
+    margin-inline: 1.5em;
+}

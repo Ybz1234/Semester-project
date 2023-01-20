@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@media screen and (min-width: 40rem) {
+  #hero {
+    /* עימוד */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30rem;
+  }
+}
+
+.logo {
+  max-width: 25%;
+  max-height: 50%;
+}
+
+body {
+  background-image: linear-gradient(black, grey, white);
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+  text-align: left;
+  padding-top: 15%;
+  overflow: scroll;
+  max-width: 100%;
+  /*padding-right: 400px;*/
+}
+
+.hero {
+  margin-left: 52.8rem;
+  margin-top: -7rem;
+}
+
+#opener {
+  position: absolute;
+  width: 627px;
+  height: 84px;
+  left: 167px;
+  top: 11rem;
+
+
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 86%;
+  background: linear-gradient(180deg, #DADADA 53.44%, rgba(218, 218, 218, 0) 116.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+.par {
+  background-color: rgba(52, 52, 52, 0.578);
+  border: 3px ridge;
+  border-radius: 2%;
+  color: white;
+  font-family: 'source code pro';
+}
+
+aside {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: black;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-pinterest {
+  color: black;
+}
+
+.fa-snapchat-ghost {
+  color: rgb(240, 239, 239);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  color: black;
+}
+
+.fa-reddit {
+  color: rgb(0, 0, 0);
+}
