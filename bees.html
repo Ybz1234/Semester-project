@@ -7,39 +7,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bees</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/world.png" />
 </head>
 
 <body dir="ltr">
-    <div class="grid">
-        <nav class="grid" id="navigation">
-            <a href="./index.html">
-                <img class="logo" src="./assets/images/icons8-ecology-64 white.png" alt="logo">
-            </a>
-            <ul>
-                <li class="hasSubItems"><a>Enviroment</a>
-                    <div class="myCoursesList">
-                        <a href="./airPollution.html">Air pollution</a>
-                        <a href="./bees.html">Bees</a>
-                        <a href="./illegalHunt.html">Illegal hunt</a>
-                        <a href="./deforesting.html">Deforesting</a>
-                        <a href="./recycling.html">Recycling</a>
+    <div class="grid-container">
+        <header class="header-grid">
+            <div class="mobile-nav active">
+                <label for="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+                <input type="checkbox" id="mobile-menu">
+                <nav class="menu">
+                    <div class="mobile-menu-grid">
+                        <ul>
+                            <div style="display: inline-block;" class="sconed-row">
+                                <li id="Environment-mobile" class="hasSubItems"><a>Environment</a>
+                                    <div class="myCoursesList">
+                                        <a href="./airPollution.html">Air pollution</a>
+                                        <a href="./bees.html">Bees</a>
+                                        <a href="./illegalHunt.html">Illegal hunt</a>
+                                        <a href="./deforesting.html">Deforesting</a>
+                                        <a href="./recycling.html">Recycling</a>
+                                    </div>
+                                </li>
+                        </ul>
                     </div>
-                </li>
-                <li class="hasSubItems"><a>Water</a>
-                    <div class="myCoursesList">
-                        <a href="./poleMelting.html">Pole melting</a>
-                        <a href="./industrialPollution.html">Industrial pollution</a>
-                        <a href="./garbageIsland.html">Garbage island</a>
-                        <a href="./pollutingPlastic.html">Polluting plastic</a>
-                        <a href="./illegalFishing.html">Illegal fishing</a>
-                    </div>
-                </li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./signUp.html">Sign up</a></li>
-            </ul>
-        </nav>
+                    <ul>
+                        <li style="display: inline-block;" id="Water-mobile" class="hasSubItems"><a>Water</a>
+                            <div class="myCoursesList">
+                                <a href="./poleMelting.html">Pole melting</a>
+                                <a href="./industrialPollution.html">Industrial pollution</a>
+                                <a href="./garbageIsland.html">Garbage island</a>
+                                <a href="./pollutingPlastic.html">Polluting plastic</a>
+                                <a href="./illegalFishing.html">Illegal fishing</a>
+                            </div>
+                    </ul>
+                    <ul>
+                        <li style="display: inline-block;" id="Water-mobile" class="hasSubItems"><a>More</a>
+                            <div class="myCoursesList">
+                                <a href="./index.html">home</a>
+                                <a href="./signUp.html">Sign up</a>
+                                <a href="./contact.html">contact</a>
+                            </div>
+                    </ul>
+            </div>
+            </nav>
     </div>
+    <nav class="desktop-header" id="navigation">
+        <a href="./index.html">
+            <img class="logo" src="./assets/images/icons8-ecology-64 white.png" alt="logo">
+        </a>
+        <ul>
+            <li class="hasSubItems"><a>Environment</a>
+                <div class="myCoursesList">
+                    <a href="./airPollution.html">Air pollution</a>
+                    <a href="./bees.html">Bees</a>
+                    <a href="./illegalHunt.html">Illegal hunt</a>
+                    <a href="./deforesting.html">Deforesting</a>
+                    <a href="./recycling.html">Recycling</a>
+                </div>
+            </li>
+            <li class="hasSubItems"><a>Water</a>
+                <div class="myCoursesList">
+                    <a href="./poleMelting.html">Pole melting</a>
+                    <a href="./industrialPollution.html">Industrial pollution</a>
+                    <a href="./garbageIsland.html">Garbage island</a>
+                    <a href="./pollutingPlastic.html">Polluting plastic</a>
+                    <a href="./illegalFishing.html">Illegal fishing</a>
+                </div>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./signUp.html">Sign up</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="hero" style="display: grid;">
+        <img class="earth" src="./assets/images/giphy 12.png" alt="earth - home page" width="420">
+        <h1 class="h1-grid">Bees</h1>
+    </section>
+    <main>
+        <h2 id="indexh2">The risks and dangers of bee extinction</h2>
+        <p class="par">
+            The blue skies and blooming flowers of spring also bring with them the buzzing of bees, who emerge from
+            their hives in search of pollen. <br>
+            While small in size, their contributions to our ecosystems are momentous; put simply, life on Earth as
+            it is today would not exist without bees. <br>
+            Over millions of years, bees have evolved to help them pollinate flowers, even gaining little pollen
+            pouches to carry larger loads; flowers have also evolved to attract bees and other pollinators and
+            largely depend on them for reproduction. Which is why their disappearance is worrying:
+            <br>
+            over the past century, bee populations have plummeted and some have even been labelled as endangered,
+            leaving their ecosystems - and our food chains - at risk of collapse
+        </p>
+        <iframe src="https://www.youtube.com/embed/Jzp6H8BAJ7o" width="420" height="400" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <h2 id="indexh2">Why are bees endangered?</h2>
+        <p class="par">
+            Bees are at risk of extinction largely due to human activities: <br>
+            large-scale changes in land use, industrialised agricultural practices, like monocultures, and the
+            detrimental use of pesticides have all contributed to destroying their habitats and reducing their
+            available food sources. <br>
+            Globalisation has also facilitated the transmission of parasites and other invasive species that prey on
+            bees, like the Asian hornet, which can decimate entire hives in hours. <br>
+            Global warming also plays a large role in the endangerment of the bee population. Rising temperatures,
+            increased flooding, droughts and changes in blooming seasons of flowering plants all affect the bees’
+            ecosystems, reducing their suitability to the environment and threatening their survival.
+        </p>
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/bees1.jpeg">
+                <img src="./assets/images/bees1.jpeg" alt="Industrial pollution 1">
+            </a>
+            <h2 id="indexh2">Bees are amazing!</h2>
+        </div>
 
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/bees2.jpeg">
+                <img src="./assets/images/bees2.jpeg" alt="Industrial pollution 2">
+            </a>
+            <h2 id="indexh2">Save the Bee, Save the world</h2>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/bees4.jpeg">
+                <img src="./assets/images/bees4.jpeg" alt="Car smoke pollution">
+            </a>
+        </div>
+        <h2 class="secondary">How can we help the bees?</h2>
+        <p class="par">
+            Just as flowers and bees provide mutually beneficial exchanges, humans - all of whom benefit from bees’
+            pollinating activities - should help foster the health of bees.
+        </p>
+        <p class="par">
+            Banning dangerous pesticides: The European Food Safety Committee (EFSA) has stated that three major
+            pesticides pose a “high acute risk” to bee species and have been found in dangerous levels within their
+            hives. Governments must ensure that approved pesticides are not harmful to pollinator populations, which
+            in the long-run will help increase crop yield and promote sustainable farming.
+        </p>
+        <p class="par">
+            Prevent and reverse habitat loss: Without adequate environments for bees to build homes and have
+            plentiful food sources, their populations will continue to decline. Preventing deforestation can
+            therefore also prevent bee extinction and, as a side effect, promote higher crop yields.
+        </p>
+        <p class="par">
+            Buy organic produce: Organic produce is grown without the use of pesticides and therefore does not have
+            chemicals that can kill bees.
+        </p>
+        <p class="par">
+            Plant flowers and plants that bees pollinate: If you have a garden, you can plant certain plants that
+            attract bees and other pollinators. Make sure to plant using organic seeds and avoid using fungicides or
+            pesticides.
+        </p>
+        <p class="par">
+            Buy local honey: Local honey producers support bee populations, but need income to support their farms
+            and themselves. Buying locally will help small-scale farmers survive, while also helping the
+            biodiversity of plants and the bee communities in your area.
+        </p>
+        <p class="par">
+            Do not kill bee hives: While many people are afraid of bees, it is important to understand that they are
+            mostly harmless unless provoked. In fact, not all bees sting - some species do not possess stinging
+            abilities, and male bees do not sting at all. Even female bees that do sting will only sting if directly
+            threatened or attacked. If you don't feel comfortable with bees around, you can contact a local
+            beekeeper association that will relocate the bees to a new home.
+        </p>
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/bees5.jpg">
+                <img src="./assets/images/bees5.jpg" alt="" width="600px" height="600%">
+            </a>
+            <h2 class="secondary">Bee a part of the solution</h2>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/bees6.jpeg">
+                <img src="./assets/images/bees6.jpeg" alt="Car smoke pollution">
+            </a>
+        </div>
+    </main>
     <aside>
         <p>
         <h3>Social media links</h3>
@@ -52,14 +200,13 @@
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-pinterest"></a>
-        <a href="#" class="fa fa-snapchat-ghost"></a>
-        <a href="#" class="fa fa-skype"></a>
         <a href="#" class="fa fa-reddit"></a>
         </p>
     </aside>
     <footer>
         &copy; | Yehonatan Ben Zaken | Afik Ayache | Amit Sorek | 2023
     </footer>
+    </div>
 </body>
 
 </html>

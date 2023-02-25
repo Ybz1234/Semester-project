@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garbage island</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/world.png"/>
 </head>
-<body>
-    
+<body dir="ltr">
+    <div class="grid-container">
+        <header class="header-grid">
+            <div class="mobile-nav active">
+                <label for="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+                <input type="checkbox" id="mobile-menu">
+                <nav class="menu">
+                    <div class="mobile-menu-grid">
+                        <ul>
+                            <div style="display: inline-block;" class="sconed-row">
+                                <li id="Environment-mobile" class="hasSubItems"><a>Environment</a>
+                                    <div class="myCoursesList">
+                                        <a href="./airPollution.html">Air pollution</a>
+                                        <a href="./bees.html">Bees</a>
+                                        <a href="./illegalHunt.html">Illegal hunt</a>
+                                        <a href="./deforesting.html">Deforesting</a>
+                                        <a href="./recycling.html">Recycling</a>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li style="display: inline-block;" id="Water-mobile" class="hasSubItems"><a>Water</a>
+                            <div class="myCoursesList">
+                                <a href="./poleMelting.html">Pole melting</a>
+                                <a href="./industrialPollution.html">Industrial pollution</a>
+                                <a href="./garbageIsland.html">Garbage island</a>
+                                <a href="./pollutingPlastic.html">Polluting plastic</a>
+                                <a href="./illegalFishing.html">Illegal fishing</a>
+                            </div>
+                    </ul>
+                    <ul>
+                        <li style="display: inline-block;" id="Water-mobile" class="hasSubItems"><a>More</a>
+                            <div class="myCoursesList">
+                                <a href="./index.html">home</a>
+                                <a href="./signUp.html">Sign up</a>
+                                <a href="./contact.html">contact</a>
+                            </div>
+                    </ul>
+            </div>
+            </nav>
+    </div>
+            <nav class="desktop-header" id="navigation">
+                <a href="./index.html">
+                    <img class="logo" src="./assets/images/icons8-ecology-64 white.png" alt="logo">
+                </a>
+                <ul>
+                    <li class="hasSubItems"><a>Environment</a>
+                        <div class="myCoursesList">
+                            <a href="./airPollution.html">Air pollution</a>
+                            <a href="./bees.html">Bees</a>
+                            <a href="./illegalHunt.html">Illegal hunt</a>
+                            <a href="./deforesting.html">Deforesting</a>
+                            <a href="./recycling.html">Recycling</a>
+                        </div>
+                    </li>
+                    <li class="hasSubItems"><a>Water</a>
+                        <div class="myCoursesList">
+                            <a href="./poleMelting.html">Pole melting</a>
+                            <a href="./industrialPollution.html">Industrial pollution</a>
+                            <a href="./garbageIsland.html">Garbage island</a>
+                            <a href="./pollutingPlastic.html">Polluting plastic</a>
+                            <a href="./illegalFishing.html">Illegal fishing</a>
+                        </div>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./signUp.html">Sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero" style="display: grid;">
+            <img class="earth" src="./assets/images/giphy 12.png" alt="earth - home page" width="420">
+            <h1 class="h1-grid">Garbage island</h1>
+        </section>
+        <main>
+            <h2 id="indexh2">The patch</h2>
+            <p class="par">
+                The Great Pacific Garbage Patch  is a collection of marine debris in the North Pacific Ocean. <br>
+                Marine debris is litter that ends up in the ocean, seas, and other large bodies of water. <br>
+                The Great Pacific Garbage Patch, also known as the Pacific trash vortex, spans waters from the West Coast of North America to Japan. <br>
+                The patch is actually comprised of the Western Garbage Patch, located near Japan, and the Eastern Garbage Patch, located between the U.S. states of Hawaii and California. <br>
+                The amount of debris in the Great Pacific Garbage Patch accumulates because much of it is not biodegradable. <br>
+                Many plastics, for instance, do not wear down; they simply break into tinier and tinier pieces.
+            </p>
+            <iframe src="https://www.youtube.com/embed/MnCbTTTi7ic" width="420" height="400"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <p class="par">
+                For many people, the idea of a “garbage patch” conjures up images of an island of trash floating on the ocean. <br>
+                In reality, these patches are almost entirely made up of tiny bits of plastic, called microplastics. <br>
+                Microplastics can’t always be seen by the naked eye. <br>
+                Even satellite imagery doesn’t show a giant patch of garbage. The microplastics of the Great Pacific Garbage Patch can simply make the water look like a cloudy soup. <br>
+                This soup is intermixed with larger items, such as fishing gear and shoes.
+            </p>
+            <div class="gallery">
+                <a target="_blank" href="./assets/images/gb1.jpeg">
+                    <img src="./assets/images/gb1.jpeg" alt="Grbage">
+                </a>
+                <h2 id="indexh2">Make haste, change the production, not the waste. </h2>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/images/gb2.jpeg">
+                    <img src="./assets/images/gb2.jpeg" alt="Recycling bins">
+                </a>
+                <h2 id="indexh2">The oceans don’t want to taste our waste.</h2>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/images/gb3.jpeg">
+                    <img src="./assets/images/gb3.jpeg" alt="Garbage on an island">
+                </a>
+            </div>
+            <h2 class="secondary">Patching up the patch</h2>
+            <p class="par">
+                Because the Great Pacific Garbage Patch is so far from any country’s coastline, no nation will take responsibility or provide the funding to clean it up. <br>
+                Charles Moore, the man who discovered the vortex, says cleaning up the garbage patch would “bankrupt any country” that tried it. <br>
+                Many individuals and international organizations, however, are dedicated to preventing the patch from growing. <br>
+                Many expeditions have traveled through the Great Pacific Garbage Patch. <br>
+                Charles Moore, who discovered the patch in 1997, continues to raise awareness through his own environmental organization, the Algalita Marine Research Foundation. <br>
+                During a 2014 expedition, Moore and his team used aerial drones, to assess from above the extent of the trash below. <br>
+                The drones determined that there is 100 times more plastic by weight than previously measured. The team also discovered more permanent plastic features, or islands, some over 15 meters (50 feet) in length.
+            </p>
+            <div class="gallery">
+                <a target="_blank" href="./assets/images/gb4.jpeg">
+                    <img src="./assets/images/gb4.jpeg" alt="A woman recycling" width="600px" height="600%">
+                </a>
+                <h2 class="secondary">Our past we cannot erase. Our future needs less waste.</h2>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/images/gb5.jpeg">
+                    <img src="./assets/images/gb5.jpeg" alt="Recycling bins">
+                </a>
+            </div>
+            <p class="par">
+                <b>Link for donations: </b> https://theoceancleanup.com/donate/
+            </p>
+        </main>
+        <aside>
+            <p>
+            <h3>Social media links</h3>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a target="_blank" href="https://www.facebook.com/SvivaMinistry" class="fa fa-facebook"></a>
+                <a target="_blank" href="https://twitter.com/visitors_igudan" class="fa fa-twitter"></a>
+                <a target="_blank" href="https://www.gov.il/he/departments/ministry_of_environmental_protection/govil-landing-page" class="fa fa-google"></a>
+                <a target="_blank" href="https://www.linkedin.com/learning/paths/improve-your-sustainability-skills?upsellOrderOrigin=default_guest_learning" class="fa fa-linkedin"></a>
+                <a target="_blank" href="https://www.youtube.com/@IsraelEnvironment" class="fa fa-youtube"></a>
+                <a target="_blank" href="https://www.instagram.com/esc.il.1990/" class="fa fa-instagram"></a>
+                <a target="_blank" href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=sustainability&eq=SUSTAINABILTY&etslf=11841" class="fa fa-pinterest"></a>
+                <a target="_blank" href="https://www.reddit.com/r/sustainability/" class="fa fa-reddit"></a>
+            </p>
+        </aside>
+        <footer>
+            &copy; | Yehonatan Ben Zaken | Afik Ayache | Amit Sorek | 2023
+        </footer>
+    </div>
 </body>
 </html>

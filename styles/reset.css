@@ -1,55 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-@media screen and (min-width: 40rem) {
-  #hero {
-    /* עימוד */
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30rem;
-  }
-}
-
-.logo {
-  max-width: 25%;
-  max-height: 50%;
-}
-
 body {
-  background-image: linear-gradient(black, grey, white);
+  background-image: linear-gradient(black, rgb(46, 46, 46), rgb(255, 255, 255));
+  background-size: 100%;
   background-repeat: no-repeat;
   align-items: center;
   margin: 0;
   padding: 0;
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Secular One', sans-serif;
-  text-align: left;
+  text-align: center;
   padding-top: 15%;
   overflow: scroll;
-  max-width: 100%;
-  /*padding-right: 400px;*/
+  min-width: 100%;
+  overflow-x: hidden;
+  /*object-fit: fill;
+  width: 100%;
+  height: 100%;*/
 }
 
-.hero {
-  margin-left: 52.8rem;
-  margin-top: -7rem;
+.mainbackground {
+  border-radius: 30px;
 }
 
-#opener {
-  position: absolute;
-  width: 627px;
-  height: 84px;
-  left: 167px;
-  top: 11rem;
-
-
+.secondary {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 400;
-  font-size: 96px;
-  line-height: 86%;
-  background: linear-gradient(180deg, #DADADA 53.44%, rgba(218, 218, 218, 0) 116.38%);
+  background: linear-gradient(180deg, rgb(0, 0, 0), #1b1b1b 53.44% 116.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+iframe {
+  width: 50%;
+  margin-top: 10rem;
 }
 
 h3 {
@@ -59,9 +48,11 @@ h3 {
 .par {
   background-color: rgba(52, 52, 52, 0.578);
   border: 3px ridge;
-  border-radius: 2%;
+  border-radius: 1.5%;
   color: white;
   font-family: 'source code pro';
+  text-align: left;
+  justify-content: center;
 }
 
 aside {
@@ -98,15 +89,6 @@ footer {
 }
 
 .fa-pinterest {
-  color: black;
-}
-
-.fa-snapchat-ghost {
-  color: rgb(240, 239, 239);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
   color: black;
 }
 
