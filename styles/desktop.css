@@ -1,4 +1,4 @@
-@media screen and (min-width: 1268px) {
+@media screen and (min-width: 451px) {
     body {
         background-image: linear-gradient(black, rgb(46, 46, 46), rgb(255, 255, 255));
         background-size: 100%;
@@ -97,6 +97,7 @@
         align-items: center;
         text-align: center;
         width: 100%;
+        z-index: 100;
     }
 
     .logo {
@@ -160,22 +161,6 @@
     .mobile-nav {
         display: none;
     }
-
-    /* #opener {
-        /*width: 627px;
-        height: 100px;
-        left: 167px;
-        top: 11rem;*/
-    /* margin-top: -18rem;
-        font-family: 'Oxygen';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 70px;
-        background: linear-gradient(180deg, #DADADA 53.44%, rgba(218, 218, 218, 0) 116.38%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    } */
 
     #indexh2 {
         margin-top: 195px;

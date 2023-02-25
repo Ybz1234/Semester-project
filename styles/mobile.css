@@ -1,4 +1,4 @@
-@media screen and (max-width: 1267px) {
+@media screen and (max-width: 450px) {
     .header-grid {
         grid-area: header;
     }
@@ -256,21 +256,6 @@
         rotate: -40deg;
         transform: translateX(40%);
     }
-
-    /*
-  #opener {
-      text-align: center;
-      font-family: 'Oxygen';
-      font-style: normal;
-      font-weight: 400;
-      background: linear-gradient(180deg, #DADADA 53.44%, rgba(218, 218, 218, 0) 116.38%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 32rem;
-      margin-top: 7rem;
-  }
- */
 
     #indexh2 {
         margin-top: 195px;

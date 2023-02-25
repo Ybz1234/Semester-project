@@ -14,9 +14,6 @@ body {
   overflow: scroll;
   min-width: 100%;
   overflow-x: hidden;
-  /*object-fit: fill;
-  width: 100%;
-  height: 100%;*/
 }
 
 .mainbackground {
